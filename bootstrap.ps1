@@ -242,7 +242,7 @@ $appsToInstall = @(
     
     @{id = "Microsoft.BingWallpaper"},
 
-    @{id = "TechSmith.Camtasia"},
+    # @{id = "TechSmith.Camtasia"},
     # @{name = "Snagit 2022"; id = "TechSmith.Snagit.2022"},
     @{name = "Snagit 2024"; id = "TechSmith.Snagit.2024"},
 
@@ -256,7 +256,7 @@ $appsToInstall = @(
     @{name = "Harvest Time Tracker"; id = "9PBLBM45RJQJ"; source = "msstore"},
     @{name = "NuGet Package Explorer"; id = "9WZDNCRDMDM3"; source = "msstore"},
 
-    @{name = "Adobe Creative Cloud"; id = "XPDLPKWG9SW2WD"; source="msstore"},
+    # @{name = "Adobe Creative Cloud"; id = "XPDLPKWG9SW2WD"; source="msstore"},
     @{name = "Windows IoT Remote Client"; id="9NBLGGH5MNXZ"; source="msstore"},
     @{name = "OpenVPN"; id = "OpenVPNTechnologies.OpenVPN"},
     @{name = "Microsoft Remote Desktop"; id = "9WZDNCRFJ3PS"; source = "msstore"},
@@ -264,14 +264,14 @@ $appsToInstall = @(
     @{id = "Hashicorp.Terraform"},
     @{id = "Microsoft.PowerBI"},
     @{id = "Google.Drive"},
-    @{name = "Microsoft Hololens"; id = "9NBLGGH4QWNX"; source = "msstore"},
+    # @{name = "Microsoft Hololens"; id = "9NBLGGH4QWNX"; source = "msstore"},
     @{id = "Grammarly.Grammarly"},
     @{id = "AstroComma.AstroGrep"},
     @{name = "Dev Home (Preview)"; id = "Microsoft.DevHome"},
     @{name = "Dev Home GitHub Extension (Preview)"; id = "9NZCC27PR6N6"; source = "msstore"},
     @{name = "Dev Home Azure Extension (Preview)"; id = "9MV8F79FGXTR"; source = "msstore"},
 
-    @{id = "Ultimaker.Cura"},
+    # @{id = "Ultimaker.Cura"},
     @{id = "fzf"},
     @{name = "Microsoft To Do: Lists, Tasks & Reminders"; id = "9NBLGGH5R558"; source = "msstore"},
     @{name = "Microsoft Whiteboard"; id = "9MSPC6MP8FM4"; source = "msstore"},
@@ -293,12 +293,12 @@ gh extension install k1LoW/gh-grep
 # Failing asking for install location
 # @{id = "AutoHotkey.AutoHotkey"},
 
-$elgatoApps = @(
-    @{id = "Elgato.StreamDeck"},
-    @{id = "Elgato.ControlCenter"},
-    @{id = "Elgato.CameraHub"}
-)
-Install-WingetApps $elgatoApps
+# $elgatoApps = @(
+#     @{id = "Elgato.StreamDeck"},
+#     @{id = "Elgato.ControlCenter"},
+#     @{id = "Elgato.CameraHub"}
+# )
+# Install-WingetApps $elgatoApps
 
 $wslDistros = @(
     @{id = "Canonical.Ubuntu.2204"},
