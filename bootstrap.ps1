@@ -122,9 +122,9 @@ $appsToInstall = @(
     @{name = "DisplayLink Manager"; id = "9N09F8V8FS02"; source = "msstore" },
     @{name = "Lenovo Commercial Vantage"; id = "9NR5B8GVVM13"; source = "msstore"},
     
-    @{id = "Microsoft.VisualStudio.2019.Enterprise"},
-    # @{id = "Microsoft.VisualStudioCode" }, 
-    # @{id = "Microsoft.VisualStudioCode.Insiders" },
+    # @{id = "Microsoft.VisualStudio.2019.Enterprise"},
+    @{id = "Microsoft.VisualStudioCode" }, 
+    @{id = "Microsoft.VisualStudioCode.Insiders" },
 
     @{id = "Insomnia.Insomnia"},
     @{id = "AutoHotkey.AutoHotkey"},
@@ -191,7 +191,7 @@ $appsToInstall = @(
     @{id = "Microsoft.VCRedist.2012.x64"},
     @{name = "Microsoft Visual C++ 2010 x64 Redistributable"; id = "Microsoft.VCRedist.2010.x64"},
     @{name = "Microsoft Visual C++ 2008 Redistributable - x64"; id = "Microsoft.VCRedist.2008.x64"},
-    @{name = "Microsoft Visual C++ 2005 Redistributable (x64)"; id = "Microsoft.VCRedist.2005.x64"},
+    # @{name = "Microsoft Visual C++ 2005 Redistributable (x64)"; id = "Microsoft.VCRedist.2005.x64"},
     @{name = "Visual Studio BuildTools 2022"; id = "Microsoft.VisualStudio.2022.BuildTools"},
     @{name = "Visual Studio BuildTools 2019"; id = "Microsoft.VisualStudio.2019.BuildTools"},    
 
@@ -315,8 +315,8 @@ winget install --silent --id "Microsoft.SQLServer.2022.Developer" --override ' /
 
 # https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community
 # https://docs.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio#list-of-workload-ids-and-component-ids
-winget install --id Microsoft.VisualStudio.2022.Enterprise --override "--quiet --add Microsoft.Visualstudio.Workload.Azure;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.Data;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.DataScience;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.ManagedGame;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.NetWeb;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.Node;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.Python;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.Universal;includeRecommended;includeOptional"
-winget install --id Microsoft.VisualStudio.2022.Enterprise.Preview --override "--quiet --add Microsoft.Visualstudio.Workload.Azure;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.Data;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.DataScience;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.ManagedGame;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.NetWeb;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.Node;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.Python;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.Universal;includeRecommended;includeOptional"
+# winget install --id Microsoft.VisualStudio.2022.Enterprise --override "--quiet --add Microsoft.Visualstudio.Workload.Azure;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.Data;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.DataScience;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.ManagedGame;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.NetWeb;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.Node;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.Python;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.Universal;includeRecommended;includeOptional"
+# winget install --id Microsoft.VisualStudio.2022.Enterprise.Preview --override "--quiet --add Microsoft.Visualstudio.Workload.Azure;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.Data;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.DataScience;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeRecommended;includeOptional --add Microsoft.VisualStudio.Workload.ManagedGame;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.NetWeb;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.Node;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.Python;includeRecommended;includeOptional -add Microsoft.VisualStudio.Workload.Universal;includeRecommended;includeOptional"
 
 
 
