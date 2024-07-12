@@ -150,23 +150,23 @@ $appsToInstall = @(
     @{name = "Mozilla Firefox"; id = "Mozilla.Firefox"},
     # @{id = "LogMeIn.LastPass"},
     @{name = "LastPass"; id = "LastPass.LastPass"},
-    @{id = "NordVPN"},
-    @{name = "Discord"; id = "Discord.Discord"},
-    @{name = "WhatsApp"; id = "WhatsApp.WhatsApp"},
-    @{name = "Zoom"; id = "Zoom.Zoom"},
+    # @{id = "NordVPN"},
+    # @{name = "Discord"; id = "Discord.Discord"},
+    # @{name = "WhatsApp"; id = "WhatsApp.WhatsApp"},
+    # @{name = "Zoom"; id = "Zoom.Zoom"},
     
     @{name = "Microsoft Edge Dev"; id = "Microsoft.Edge.Dev"},
     @{name = "Microsoft Edge Beta"; id = "Microsoft.Edge.Beta"},
     @{name = "Microsoft Edge Canary"; id = "Microsoft.Edge.Canary"},
     
-    @{name = "Kubernetes - Minikube - A Local Kubernetes Development Environment"; id = "Kubernetes.minikube"},
-    @{name = "kubectl"; id = "Kubernetes.kubectl"},
-    @{name = "kompose"; id = "Kubernetes.kompose"},
-    @{name = "Helm"; id = "Helm.Helm"},
+    # @{name = "Kubernetes - Minikube - A Local Kubernetes Development Environment"; id = "Kubernetes.minikube"},
+    # @{name = "kubectl"; id = "Kubernetes.kubectl"},
+    # @{name = "kompose"; id = "Kubernetes.kompose"},
+    # @{name = "Helm"; id = "Helm.Helm"},
     
-    @{name = "Microsoft Azure Kubelogin"; id = "Microsoft.Azure.Kubelogin"},
-    @{name = "Azure Terrafy"; id = "Microsoft.Azure.Aztfy"},
-    @{name = "AzCopy v10"; id = "Microsoft.Azure.AZCopy.10"},
+    # @{name = "Microsoft Azure Kubelogin"; id = "Microsoft.Azure.Kubelogin"},
+    # @{name = "Azure Terrafy"; id = "Microsoft.Azure.Aztfy"},
+    # @{name = "AzCopy v10"; id = "Microsoft.Azure.AZCopy.10"},
 
     @{id = "Microsoft.SQLServerManagementStudio"},
     @{id = "Microsoft.CLRTypesSQLServer.2019"},
@@ -204,14 +204,14 @@ $appsToInstall = @(
 
     @{id = "OpenJS.NodeJS.LTS"},
     # @{name = "JetBrains ReSharper"; id = "JetBrains.ReSharper"},
-    @{id = "JetBrains.Toolbox"},
+    # @{id = "JetBrains.Toolbox"},
 
-    @{name = "Unity Hub"; id = "Unity.UnityHub"},
-    @{name = "Unity"; id = "Unity.Unity.2020"},
-    @{name = "Unity 2021"; id = "Unity.Unity.2021"},
-    @{name = "Unity 2022"; id = "Unity.Unity.2022"},
+    # @{name = "Unity Hub"; id = "Unity.UnityHub"},
+    # @{name = "Unity"; id = "Unity.Unity.2020"},
+    # @{name = "Unity 2021"; id = "Unity.Unity.2021"},
+    # @{name = "Unity 2022"; id = "Unity.Unity.2022"},
 
-    @{id = "Microsoft.DotNet.SDK.Preview"},
+    # @{id = "Microsoft.DotNet.SDK.Preview"},
     # @{id = "Microsoft.DotNet.SDK.7"},
     # @{id = "Microsoft.DotNet.SDK.6"},
     # @{id = "Microsoft.DotNet.SDK.5"},
@@ -231,14 +231,14 @@ $appsToInstall = @(
     @{id = "Microsoft.WindowsPCHealthCheck"},
     @{id = "mRemoteNG.mRemoteNG"},
 
-    @{name = "Logitech G HUB"; id = "Logitech.GHUB"},
-    @{id = "Logitech.CameraSettings"},
-    @{name = "Logi Options+"; id = "Logitech.OptionsPlus"},
-    @{name = "Logitech Options"; id = "Logitech.Options"},
-    @{id = "Logitech.UnifyingSoftware"},
-    @{id = "Logitech.LogiBolt"},
-    @{id = "Logitech.LogiTune"},
-    @{id = "Logitech.Presentation"},
+    # @{name = "Logitech G HUB"; id = "Logitech.GHUB"},
+    # @{id = "Logitech.CameraSettings"},
+    # @{name = "Logi Options+"; id = "Logitech.OptionsPlus"},
+    # @{name = "Logitech Options"; id = "Logitech.Options"},
+    # @{id = "Logitech.UnifyingSoftware"},
+    # @{id = "Logitech.LogiBolt"},
+    # @{id = "Logitech.LogiTune"},
+    # @{id = "Logitech.Presentation"},
     
     @{id = "Microsoft.BingWallpaper"},
 
@@ -258,18 +258,18 @@ $appsToInstall = @(
 
     # @{name = "Adobe Creative Cloud"; id = "XPDLPKWG9SW2WD"; source="msstore"},
     @{name = "Windows IoT Remote Client"; id="9NBLGGH5MNXZ"; source="msstore"},
-    @{name = "OpenVPN"; id = "OpenVPNTechnologies.OpenVPN"},
+    # @{name = "OpenVPN"; id = "OpenVPNTechnologies.OpenVPN"},
     @{name = "Microsoft Remote Desktop"; id = "9WZDNCRFJ3PS"; source = "msstore"},
-    @{name = "Spicetify"; id = "Spicetify.Spicetify"},
-    @{id = "Hashicorp.Terraform"},
+    # @{name = "Spicetify"; id = "Spicetify.Spicetify"},
+    # @{id = "Hashicorp.Terraform"},
     @{id = "Microsoft.PowerBI"},
     @{id = "Google.Drive"},
     # @{name = "Microsoft Hololens"; id = "9NBLGGH4QWNX"; source = "msstore"},
     @{id = "Grammarly.Grammarly"},
-    @{id = "AstroComma.AstroGrep"},
-    @{name = "Dev Home (Preview)"; id = "Microsoft.DevHome"},
-    @{name = "Dev Home GitHub Extension (Preview)"; id = "9NZCC27PR6N6"; source = "msstore"},
-    @{name = "Dev Home Azure Extension (Preview)"; id = "9MV8F79FGXTR"; source = "msstore"},
+    # @{id = "AstroComma.AstroGrep"},
+    # @{name = "Dev Home (Preview)"; id = "Microsoft.DevHome"},
+    # @{name = "Dev Home GitHub Extension (Preview)"; id = "9NZCC27PR6N6"; source = "msstore"},
+    # @{name = "Dev Home Azure Extension (Preview)"; id = "9MV8F79FGXTR"; source = "msstore"},
 
     # @{id = "Ultimaker.Cura"},
     @{id = "fzf"},
@@ -331,7 +331,7 @@ choco install filezilla
 choco install syspin
 
 # Spotify doesn't install in elevated mode in winget
-choco install spotify --force
+# choco install spotify --force
 
 choco install mysql.workbench
 
