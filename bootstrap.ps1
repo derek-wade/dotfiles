@@ -124,7 +124,7 @@ $appsToInstall = @(
     
     # @{id = "Microsoft.VisualStudio.2019.Enterprise"},
     @{id = "Microsoft.VisualStudioCode" }, 
-    @{id = "Microsoft.VisualStudioCode.Insiders" },
+    # @{id = "Microsoft.VisualStudioCode.Insiders" },
 
     @{id = "Insomnia.Insomnia"},
     @{id = "AutoHotkey.AutoHotkey"},
@@ -145,7 +145,7 @@ $appsToInstall = @(
     @{id = "Dropbox.Dropbox"},
     @{id = "Telerik.Fiddler.Classic"},
     @{id = "Telerik.Fiddler.Everywhere"},
-    @{id = "Telerik.Fiddler.Everywhere.Insiders"},
+    # @{id = "Telerik.Fiddler.Everywhere.Insiders"},
     @{id = "Google.Chrome"},
     @{name = "Mozilla Firefox"; id = "Mozilla.Firefox"},
     # @{id = "LogMeIn.LastPass"},
@@ -281,7 +281,7 @@ $appsToInstall = @(
 Install-WingetApps $appsToInstall
 
 winget install --force Microsoft.VisualStudioCode --override '/VERYSILENT /SP- /MERGETASKS="!runcode,!desktopicon,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"'
-winget install --force Microsoft.VisualStudioCode.Insiders --override '/VERYSILENT /SP- /MERGETASKS="!runcode,!desktopicon,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"'
+# winget install --force Microsoft.VisualStudioCode.Insiders --override '/VERYSILENT /SP- /MERGETASKS="!runcode,!desktopicon,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"'
 
 
 # gh extensions
