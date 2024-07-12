@@ -2,7 +2,7 @@
 
 ## Bootstrap with Boxstarter
 
-[Launch Boxstarter](https://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/aprilrains/dotfiles/feature/thinkpad-p16v2/bootstrap.ps1)
+[Launch Boxstarter](https://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/derek-wade/dotfiles/feature/thinkpad-p16v2/bootstrap.ps1)
 
 Install boxstarter:  
 . { iwr -useb http://boxstarter.org/bootstrapper.ps1 } | iex; Get-Boxstarter -Force
